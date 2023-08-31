@@ -1,10 +1,876 @@
+@import url(/assets/css/style.css);
+
+.esse {
+  border: 1px solid red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+main {
+  background-color: #212529;
+  width: 100vw;
+  height: 750vh;
+  display: flex;
+  padding: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentor {
+  width: 80vw;
+  height: 730vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 0rem 8rem 0rem;
+
+}
+
+.apresentaçao {
+  width: 50vw;
+  height: 70vh;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+}
+
+.coteudo-aprestacao h1 {
+  color: #00bbdc;
+  text-align: left;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.coteudo-aprestacao p {
+  color: #d8f9ff;
+  text-align: right;
+  padding: 2rem;
+}
+
+
+.importante {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+
+.grup-importante {
+  width: 100%;
+  height: 85vh;
+  background-color: #212529;
+  display: flex;
+  align-items: center;
+  border: 1px solid #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+}
+
+.img-importante {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-importante img {
+  width: 400px;
+  height: 370px;
+  border-radius: 2rem;
+  border: 1px solid #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+}
+
+.importortante-conteudo {
+  width: 50%;
+  height: 90vh;
+}
+
+.importortante-conteudo h1 {
+  text-align: left;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-left: 2.3rem;
+  color: #39d8f5;
+}
+
+.importortante-conteudo p {
+  text-align: right;
+  margin-left: 2rem;
+  font-size: 1.1em;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  color: #d8f9ff;
+}
 
 
 
+.apresentaçao {
+  width: 77%;
+  height: 70vh;
+  margin-left: 6rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+}
 
 
 
+.cartoes {
+  width: 80vw;
+  height: 75vh;
+  padding: 30px;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartao {
+  background-color: #212529;
+  width: 30vw;
+  height: 70vh;
+  border-bottom-right-radius: 40px;
+  border: 1px solid #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+}
+
+.imagem {
+  position: relative;
+  border: 1px solid #39d8f5;
+  overflow: hidden;
+  width: 392px;
+  height: 160px;
+
+}
+
+.img {
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.imagem:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.coteudo-cartao {
+  width: 30vw;
+  height: 30vh;
+  padding: 10px;
+}
+
+.titulo-cartao {
+  color: #39d8f5;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.descricao {
+  color: #d8f9ff;
+  text-align: center;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22vh;
+}
+
+/* .btn{
+   background-color: #39d8f5;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   color: black;
+   border: 1px solid #39d8f5;
+   box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+   width: 15vw;
+   height: 7vh;
+   margin-top: 30px;
+   margin-left:90px;
+   font-size: 1rem;
+   font-weight: 600;
+   border-radius: 20px;
+   transition: 0.5s ease-out;
+}
+
+.btn:hover{
+background-color: #030303;
+color: #39d8f5;
+transition: 0.5s ease-out;
+transform: skewx(10deg);
+transform-origin: bottom left;
+
+} */
+
+.metados {
+  background-color: #2125;
+  width: 70vw;
+  height: 100vh;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  display: flex;
+  justify-content: right;
+  border-radius: 2rem;
+  border: 1px solid #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+}
+
+.metodo {
+  width: 35vw;
+  height: 100%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 4rem;
+}
 
 
+.metodo-cartao {
+  background-color: #2125;
+  width: 40vwvw;
+  height: 20vh;
+  border: groove #39d8f5;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
 
-/* cole aqui o código css da página SERVIÇOS */
+.metodo-cartao h5 {
+  color: #39d8f5;
+  font-size: 1rem;
+}
+
+.metodo-cartao p {
+  font-size: 0.80rem;
+  color: #d8f9ff;
+  padding: 1rem;
+}
+
+.titulo-fundo {
+  margin-top: 6rem;
+  margin-left: 2rem;
+}
+
+.titulo-fundo h5 {
+  color: #39d8f5;
+  font-size: 2rem;
+}
+
+.titulo-fundo p {
+  color: #d8f9ff;
+  font-size: 1rem;
+}
+
+.talento {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+
+.grup-talento {
+  width: 100%;
+  height: 85vh;
+  background-color: #2125;
+  display: flex;
+  align-items: center;
+  border: 1px solid #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+}
+
+.img-talento {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-talento img {
+  width: 400px;
+  height: 370px;
+  border-radius: 2rem;
+  border: 1px solid #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+}
+
+.talento-conteudo {
+  width: 50%;
+  height: 90vh;
+}
+
+.talento-conteudo h1 {
+  text-align: left;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-left: 2.3rem;
+  color: #39d8f5;
+}
+
+.talento-conteudo p {
+  text-align: right;
+  margin-left: 2rem;
+  font-size: 1.1em;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  color: #d8f9ff;
+}
+
+
+.mine-cartoes {
+  width: 70vw;
+  height: 30vh;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.mine-cartao {
+  background-color: #2125;
+  width: 15vw;
+  height: 20vh;
+  border: groove #39d8f5;
+  box-shadow: 5px 5px 10px rgba(0, 179, 255, 0.712);
+  transition: 0.2s;
+  margin-right: 2rem;
+}
+
+.mine-cartao:hover {
+  -ms-transform: scale(0.9);
+  transform: scale(1.1);
+  transition: 0.3s;
+  border: groove #39d8f5;
+}
+
+.mine-coteudo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mine-titulo1 {
+  color: crimson;
+  font-size: 0.80rem;
+}
+
+.mine-titulo2 {
+  color: rgb(20, 40, 220);
+  font-size: 0.80rem;
+}
+
+.mine-titulo3 {
+  color: rgb(210, 220, 20);
+  font-size: 0.80rem;
+}
+
+.mine-coteudo p {
+  font-size: 0.80rem;
+  color: #d8f9ff;
+  padding: 1rem;
+}
+
+/*resposividade Mobile*/
+@media screen and (min-width:200px) and (max-width:700px) {
+  .apresentaçao {
+    width: 100%;
+    height: 40vh;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .importante {
+    background-color: rgb(117, 117, 135);
+    width: 100%;
+    height: 60vh;
+    margin-top: 25rem;
+  }
+
+  .grup-importante {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .img-importante {
+    height: 30vh;
+  }
+
+  .img-importante img {
+    width: 200px;
+    height: 180px;
+  }
+
+  .importortante-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .importortante-conteudo h1 {
+    width: 100%;
+    height: 10vh;
+    font-size: 1.5em;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    padding-bottom: 6rem;
+  }
+
+  .importortante-conteudo p {
+    width: 100%;
+    height: 10vh;
+    font-size: 0.94rem;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .apresentaçao {
+    width: 100%;
+    height: 40vh;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .talento {
+    width: 100%;
+    height: 60vh;
+    margin-top: 25rem;
+  }
+
+  .grup-talento {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .img-talento {
+    height: 30vh;
+  }
+
+  .img-talento img {
+    width: 200px;
+    height: 180px;
+  }
+
+  .talento-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .talento-conteudo h1 {
+    width: 100%;
+    height: 10vh;
+    font-size: 1.5em;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    padding-bottom: 6rem;
+  }
+
+  .talento-conteudo p {
+    width: 100%;
+    height: 10vh;
+    font-size: 0.94rem;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cartoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25rem;
+  }
+
+  .cartao {
+    width: 100%;
+    height: 107vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .imagem {
+    position: relative;
+    border: 1px solid #39d9f5;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    height: 81px;
+
+  }
+
+  .img {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .coteudo-cartao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .metados {
+    margin-top: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+  }
+
+  .titulo-fundo {
+    margin: 0;
+    margin-top: 3rem;
+    margin-left: 1.2rem;
+  }
+
+  .metodo {
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .metodo-cartao {
+    width: 100%;
+    height: 17vh;
+    margin: 0;
+    padding: 0.30rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mine-cartoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25rem;
+  }
+
+  .mine-cartao {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+}
+
+/*resposividade messa digitalizadora*/
+@media screen and (min-width:768px) and (max-width:900px) {
+  .contentor {
+    width: 200%;
+    height: 700vh;
+    margin: 0;
+    margin-top: 50rem;
+    margin-bottom: 60rem;
+  }
+
+  .apresentaçao {
+    width: 120%;
+    height: 60vh;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+  }
+
+  .coteudo-aprestacao {
+    margin-top: 20rem;
+    height: 60vh;
+    font-size: larger;
+  }
+
+  .importante {
+    background-color: rgb(117, 117, 135);
+    width: 120%;
+    height: 30vh;
+    margin-top: 40rem;
+  }
+
+  .grup-importante {
+    width: 100%;
+    height: 87vh;
+  }
+
+  .img-importante {
+    height: 40vh;
+  }
+
+  .img-importante img {
+    width: 300px;
+    height: 300px;
+    margin-left: 2rem;
+  }
+
+  .cartoes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30rem;
+    width: 120%;
+    height: 30vh;
+
+  }
+
+  .imagem {
+    position: relative;
+    border: 1px solid #39d9f5;
+    overflow: hidden;
+    width: auto;
+    height: 160px;
+  }
+
+  .img {
+    width: fit-content;
+    height: 160px;
+  }
+
+  .coteudo-cartao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+  .metados {
+    margin-top: 40rem;
+    display: flex;
+    justify-content: center;
+    width: 120%;
+    height: 140vh;
+  }
+
+  .titulo-fundo {
+    margin: 0;
+    margin-top: 3rem;
+    margin-left: 1.2rem;
+  }
+
+  .titulo-fundo img {
+    width: 90%;
+    height: 40vh;
+  }
+
+  .metodo {
+    width: 80%;
+    height: 80vh;
+    margin: 1rem;
+    padding: 1rem;
+
+  }
+
+  .metodo-cartao {
+    width: 120%;
+  }
+
+  .talento {
+    background-color: rgb(117, 117, 135);
+    width: 120%;
+    height: 30vh;
+    margin-top: 60rem;
+  }
+
+  .grup-talento {
+    width: 100%;
+    height: 87vh;
+    padding-left: 1rem;
+  }
+
+  .img-talento {
+    height: 40vh;
+  }
+
+  .img-talento img {
+    width: 300px;
+    height: 300px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+
+  .mine-cartoes {
+    display: flex;
+    margin-top: 40rem;
+  }
+
+  .mine-cartao {
+    width: 120%;
+    margin-bottom: 4rem;
+  }
+}
+
+/*resposividade Desktop*/
+@media screen and (min-width:900px) and (max-width:2560px) {
+  .contentor {
+    width: 140%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .apresentaçao {
+    width: 90%;
+    height: 70vh;
+    margin: 0;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .importante {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .grup-importante img {
+    width: 95%;
+    height: 50vh;
+    margin: 3rem;
+
+  }
+
+  .importortante-conteudo {
+    padding: 1rem;
+    font-size: 1.0rem;
+  }
+
+  .talento {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .grup-talento img {
+    width: 95%;
+    height: 50vh;
+    margin: 3rem;
+
+  }
+
+  .talento-conteudo {
+    padding: 1rem;
+    font-size: 1.0rem;
+  }
+
+  .cartoes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 120%;
+    height: 35vh;
+  }
+
+  .cartao {
+    height: 75vh;
+  }
+
+  .imagem {
+    position: relative;
+    border: 1px solid #39d9f5;
+    overflow: hidden;
+    width: auto;
+    height: 160px;
+  }
+
+  .img {
+    width: 100%;
+    height: 160px;
+  }
+
+  .coteudo-cartao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .metados {
+    margin-top: 26rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .titulo-fundo {
+    margin: 0;
+    margin-top: 3rem;
+    margin-left: 1.2rem;
+  }
+
+  .titulo-fundo img {
+    width: 90%;
+    height: 40vh;
+  }
+
+  .metodo {
+    width: 80%;
+    height: 70vh;
+    margin: 1rem;
+    margin-top: 4rem;
+    padding: 1rem;
+  }
+
+  .metodo-cartao {
+    width: 120%;
+    margin-bottom: 2rem;
+  }
+
+  .mine-cartoes {
+    display: flex;
+    margin-top: 15rem;
+    margin-left: 2rem;
+  }
+
+  .mine-cartao {
+    width: 50%;
+    height: 25vh;
+    margin-bottom: 4rem;
+  }
+}
