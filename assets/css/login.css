@@ -1,0 +1,83 @@
+@import url(style.css);
+
+html, body {
+    height: 100%;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.py-4 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+    margin: auto !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.m-auto {
+    margin: auto !important;
+}
+
+#iconLogin  {
+    max-width: 5rem;
+}
+
+.form-floating>.form-control, .form-floating>.form-control-plaintext {
+    padding: 1rem .75rem;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn-primary {
+    --bs-btn-color: var(--bg-default);
+    --bs-btn-bg: var(--color-special);
+    --bs-btn-border-color: var(--color-special);
+    --bs-btn-hover-color: var(--color-special);
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: black;
+}
+
+.form-check-input:checked {
+    background-color: var(--color-special);
+    border-color: var(--color-special);
+}
+
+/* Botão troca de temas */
+.btn-bd-primary {
+    --bd-violet-bg: var(--color-special);
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);    
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+}
