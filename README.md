@@ -1,6 +1,6 @@
 # devHOME™
 <div align="center">
-<img align="center" src="assets/img/logo/logo-blue-6" alt="devHOME™ logo">
+<img align="center" src="assets/img/logo/logo-blue-6.png" alt="devHOME™ logo">
 <br>"Seja a mudança!"
 </div>
 
