@@ -41,19 +41,20 @@ rect {
 }
 
 #slide1 {
-  background-image: url(https://cdn.pixabay.com/photo/2023/08/19/16/32/silkworm-8200830_1280.jpg);
-  background-position: center bottom;
+  background-image: url(/assets/img/other/slide01.jpg);
+  background-position: center;
   background-size: cover;
 }
 
 #slide2 {
-  background-image: url(https://cdn.pixabay.com/photo/2023/08/19/15/39/breakfast-8200753_1280.jpg);
+  background-image: url(/assets/img/other/slide02.jpg);
+  background-position: center;
   background-size: cover;
 }
 
 #slide3 {
-  background-image: url(https://cdn.pixabay.com/photo/2023/06/04/23/08/desert-8041043_1280.jpg);
-  background-position: center bottom;
+  background-image: url(/assets/img/other/slide03.jpeg);
+  background-position: center;
   background-size: cover;
 }
 
