@@ -3,40 +3,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 :root {
+    /* FONTES & TAMANHOS              ****NÃO ALTERAR**** */
     --font-default: "Poppins", sans-serif;
     --font-special: 'Calistoga', cursive;
-    --font-size-default: 1rem;
+    --font-size-default: 2vmin;
     --font-size-special: 3rem;
-    --font-weight-default: 500;
+    --font-weight-default: 400;
     --font-weight-special: 700;
-    --color-special: #2BDEFD;
-    --color-special-rgb: rgb(43, 222, 253);
+
+    /* PALETA DE CORES */
     --color-other: #007cf0;
-    --color-other-rgb: rgb(0, 124, 240);
-    --color-text: #D7F9FF;
-    --color-text-rgb: rgb(215, 249, 255);
-    --color-default: #212529;
-    --color-default-rgb: rgb(33, 37, 41);
-    --bs-secondary-color: rgba(43, 222, 253, .4);
+    --color-light: #D7F9FF;
+    --color-dark: #212529;
+    --color-pink: #FF0066;
+    --color-special: #2BDEFD;
+    --translucid-special: hsla(189, 98%, 58%, .5);
+    --bs-secondary-color: hsla(189, 98%, 58%, .8);
 
-    --bg-default: var(--color-default);
+    /* INTEGRAÇÃO DAS PALETAS */
+    --text-other: var(--color-other);
+    --text-light: var(--color-light);
+    --text-dark: var(--color-dark);
+    --text-special: var(--color-special);
+    --bg-other: var(--color-other);
+    --bg-light: var(--color-light);
+    --bg-dark: var(--color-dark);
     --bg-special: var(--color-special);
+    --hover-other: var(--color-other);
+    --hover-light: var(--color-light);
+    --hover-dark: var(--color-dark);
     --hover-special: var(--color-special);
+    --icon-other: var(--color-other);
+    --icon-light: var(--color-light);
+    --icon-dark: var(--color-dark);
+    --icon-special: var(--color-special);
 
-    --gradient-text: linear-gradient(to right,
-            var(--color-other),
-            var(--color-special));
+    --btn-other: var(--color-other);
+    --btn-light: var(--color-light);
+    --btn-dark: var(--color-dark);
+    --btn-special: var(--color-special);
 
-    --gradient-special: linear-gradient(45deg,
-            var(--color-default),
-            var(--color-special));
+    --chaves_logo: var(--text-special);
 
-    --gradient-default: linear-gradient(to bottom,
-            rgba(33, 37, 41, 1),
+    /* GRADIENTES */
+    --gradient-other: linear-gradient(to left,
+            var(--bg-dark),
+            var(--bg-special));
+
+    --gradient-dark: linear-gradient(to bottom,
+            rgb(33, 37, 41),
             rgba(33, 37, 41, .5));
+
+    --gradient-special: linear-gradient(to right,
+            var(--bg-other),
+            var(--bg-special));
 }
 
-* {
+*,
+::after,
+::before {
     font-family: var(--font-default);
     box-sizing: border-box;
     padding: 0;
@@ -45,89 +70,74 @@
 
 /* navbar */
 .bd-navbar {
-    background-image: var(--gradient-default);
+    background-image: var(--gradient-dark);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
 }
 
 .navbar-nav {
     --bs-nav-link-font-weight: var(--font-weight-default);
-    --bs-nav-link-color: var(--color-text);
+    --bs-nav-link-color: var(--text-light);
     --bs-nav-link-hover-color: var(--hover-special);
 }
 
-#navbarLogo,
-#footerLogo {
+#logo {
     max-width: 10rem;
 }
 
-#togglerLogo {
-    max-width: 2rem;
+#icon-logo {
+    max-width: 5rem;
+    filter: drop-shadow(3px 3px 40px var(--color-special));
 }
 
 .bi-three-dots-vertical,
 .bi-c-circle,
 .bi-arrow-up-short {
-    color: var(--color-special);
+    color: var(--icon-special);
 }
 
-/* .btn-primary {
-    --bs-btn-color: var(--bg-default);
-    --bs-btn-bg: var(--color-special);
-    --bs-btn-border-color: var(--color-special);
-    --bs-btn-hover-color: var(--color-special);
-    --bs-btn-hover-bg: black;
-    --bs-btn-hover-border-color: black;
-    filter: drop-shadow(1px 1px 10px var(--color-special));
-} */
+.btn-outline-primary {
+    --bs-btn-color: var(--btn-special);
+    --bs-btn-border-color: var(--btn-special);
+    --bs-btn-hover-color: var(--hover-light);
+    --bs-btn-hover-bg: var(--hover-special);
+    --bs-btn-hover-border-color: var(--hover-special);
+    --bs-btn-active-color: var(--btn-dark);
+    --bs-btn-active-bg: var(--bg-light);
+    --bs-btn-active-border-color: var(--btn-light);
+    filter: drop-shadow(3px 3px 8px var(--color-special));
+}
 
-/* .btn-primary {
-    --bs-btn-color: var(--bg-default);
-    --bs-btn-bg: var(--color-special);
-    --bs-btn-border-color: var(--color-special);
-    --bs-btn-hover-color: var(--color-special);
-    --bs-btn-hover-bg: black;
-    --bs-btn-hover-border-color: black;
-    filter: drop-shadow(1px 1px 10px var(--color-special));
-
-    background-image: linear-gradient(to right,
-            var(--end-color),
-            var(--start-color));
-} */
-
-/* .btn-outline-primary {
-    --bs-btn-color: #0d6efd;
-    --bs-btn-border-color: #0d6efd;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #0d6efd;
-    --bs-btn-hover-border-color: #0d6efd;
-    --bs-btn-focus-shadow-rgb: 13, 110, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #0d6efd;
-    --bs-btn-active-border-color: #0d6efd;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #0d6efd;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #0d6efd;
-    --bs-gradient: none;
-} */
+.btn-primary {
+    --bs-btn-color: var(--btn-light);
+    --bs-btn-bg: var(--btn-special);
+    --bs-btn-border-color: var(--btn-special);
+    --bs-btn-hover-color: var(--hover-dark);
+    --bs-btn-hover-bg: var(--hover-light);
+    --bs-btn-hover-border-color: var(--hover-light);
+    --bs-btn-active-color: var(--btn-special);
+    --bs-btn-active-bg: var(--bg-dark);
+    --bs-btn-active-border-color: var(--btn-special);
+    filter: drop-shadow(3px 3px 8px var(--color-special));
+}
 
 hr,
 .border-bottom {
-    border-image: var(--gradient-special) 1;
+    border-image: var(--gradient-other) 1;
 }
 
-/* texto especial */
+/* textos especiais */
 .enfase-text {
-    color: var(--color-special);
+    color: var(--text-special);
 }
 
 .gradient-text {
     font-family: var(--font-special);
     font-size: var(--font-size-special);
     font-weight: var(--font-weight-special);
-    color: var(--color-special);
-    background-image: var(--gradient-text);
+    color: var(--text-special);
+
+    background-image: var(--gradient-special);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -151,4 +161,21 @@ hr,
     width: 100%;
     height: 6rem;
     display: block;
+}
+
+/* Botão troca de temas */
+.btn-bd-primary {
+    --bd-violet-bg: var(--color-special);
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
 }

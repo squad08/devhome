@@ -7,7 +7,7 @@
 }
 
 .carousel-item {
-  height: 35rem;
+  height: 83vh;
 }
 
 .carousel-control-next,
@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: center;
   width: 6%;
-  color: #262626;
+  color: #fd0000;
   text-align: center;
   background: 0 0;
   border: 0;
@@ -37,7 +37,7 @@
 }
 
 rect {
-  fill: var(--bs-secondary-color);
+  fill: var(--translucid-special);
 }
 
 #slide1 {
@@ -59,6 +59,19 @@ rect {
 }
 
 /* Heros */
+.chaves_logo {
+  font-size: var(--font-size-special);
+  color: var(--chaves_logo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  cursor: none;
+  --bs-btn-hover-color: var(--btn-light);
+  --bs-btn-active-border-color: var(--btn-dark);
+  filter: drop-shadow(3px 3px 40px var(--color-special));
+}
+
 #btnHeros {
   --bs-btn-color: var(--bg-default);
   --bs-btn-bg: var(--color-special);
@@ -70,6 +83,7 @@ rect {
 }
 
 /* Hanging icons */
+.bi-house-door-fill,
 .bi-mortarboard-fill,
 .bi-gear-fill,
 .bi-person-plus-fill {

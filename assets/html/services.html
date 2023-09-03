@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:locale" content="pt_BR">
     <meta property="og:description"
-        content="Entre na residência de software da devHOME™ e aprenda Front-end, Back-end na prática com a maior plataforma de tecnologia do momento">
+        content="Entre na residência em software da devHOME™ e aprenda Front-end, Back-end na prática com a maior plataforma de tecnologia do momento">
     <meta name="description"
-        content="Entre na residência de software da devHOME™ e aprenda Front-end, Back-end na prática com a maior plataforma de tecnologia do momento">
-    <meta property="og:title" content="devHOME™ | Residência de Software">
+        content="Entre na residência em software da devHOME™ e aprenda Front-end, Back-end na prática com a maior plataforma de tecnologia do momento">
+    <meta property="og:title" content="devHOME™ | Residência em Software">
     <meta property="og:site_name" content="devHOME">
     <meta property="og:url" content="https://www.devHOME.com.br">
     <link rel="canonical" href="https://www.devHOME.com.br">
@@ -41,7 +41,7 @@
 
             <!-- Logo navbar -->
             <a class="navbar-brand mx-auto" href="/index.html">
-                <img class=" d-block d-lg-flex" id="navbarLogo" src="/assets/img/logo/logo-blue-6.png"
+                <img class=" d-block d-lg-flex" id="logo" src="/assets/img/logo/logo-blue-6.png"
                     alt="devHOME logo">
 
                 <title>devHOME™</title>
@@ -53,7 +53,7 @@
                 <button class="navbar-toggler border-0 d-lg-none order-3" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
 
-                    <!-- <img id="togglerLogo" src="assets/img/icon/icon-blue-2.png" fill="currentColor"> -->
+                    <!-- <img id="icon-logo" src="/assets/img/icon/icon-blue-2.png" fill="currentColor"> -->
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
@@ -86,23 +86,23 @@
                     <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav ms-md-auto">
 
                         <!-- Home -->
-                        <li class="nav-item col-6 col-lg-auto"><a class="nav-link" aria-current="true"
-                                href="/index.html">Home</a>
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a class="nav-link" aria-current="true" href="/index.html">Home</a>
                         </li>
 
                         <!-- About -->
-                        <li class="nav-item col-6 col-lg-auto"><a class="nav-link"
-                                href="/assets/html/about.html">Sobre</a>
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a class="nav-link" href="/assets/html/about.html">Sobre</a>
                         </li>
 
-                        <!-- Services -->
-                        <li class="nav-item col-6 col-lg-auto"><a class="nav-link"
-                                href="/assets/html/services.html">Serviços</a>
+                        <!-- Serviços -->
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a class="nav-link" href="/assets/html/services.html">Serviços</a>
                         </li>
 
                         <!-- Contact -->
-                        <li class="nav-item col-6 col-lg-auto"><a class="nav-link"
-                                href="/assets/html/contact.html">Contato</a>
+                        <li class="nav-item col-6 col-lg-auto">
+                            <a class="nav-link" href="/assets/html/contact.html">Contato</a>
                         </li>
                     </ul>
 
@@ -144,12 +144,12 @@
                             <hr class="d-lg-none my-2 text-white-50">
                         </li>
 
-                        <div class="nav-item col-12 col-lg-auto"><!-- Botões de Login/Cadastro -->
+                        <div class="nav-item col-12 col-lg-auto d-grid gap-2 d-md-flex"><!-- Botões de Login/Cadastro -->
                             <a class="btn btn-outline-primary" role="button" href="/assets/html/login.html">
                                 Login
                             </a>
 
-                            <a class="btn btn-primary" role="button" href="/assets/html/cadastre.html">
+                            <a class="btn btn-warning disabled" role="button" href="/assets/html/cadastre.html">
                                 Inscreva-se
                             </a>
                         </div>
@@ -162,11 +162,10 @@
     <!-- Corpo -->
     <main>
         <div class="contentor">
-
             <section class="apresentaçao">
                 <div class="coteudo-aprestacao">
                     <h1>Junte-se agente e descubra o mundo</h1>
-                    <p>DevHome e a Residência de Software são aliadas de empresas líderes em tecnologia e dos
+                    <p>DevHOME™ e a Residência de Software são aliadas de empresas líderes em tecnologia e dos
                         profissionais de RH.
                         Nós te deixamos frente a frente com o júnior que está pronto para ser o sênior de amanhã.</p>
                 </div>
@@ -175,7 +174,7 @@
             <section class="importante">
                 <div class="grup-importante">
                     <div class="img-importante">
-                        <img src="/assets/img/services/empresa.jpg" alt="">
+                        <img src="/assets/img/other/empresa.jpg" alt="">
                     </div>
                     <div class="importortante-conteudo">
                         <h1>Te deixamos frente a frente com empresas serias no mercado!</h1>
@@ -190,12 +189,10 @@
                 </div>
             </section>
 
-
             <section class="cartoes">
-
                 <div class="cartao">
                     <div class="imagem">
-                        <img src="/assets/img/services/images.jpeg" alt="" class="img">
+                        <img src="/assets/img/other/images.jpeg" alt="" class="img">
                     </div>
                     <div class="coteudo-cartao">
                         <h4 class="titulo-cartao">Setor do contratante</h4>
@@ -206,9 +203,10 @@
                         <button type="button" id="botao-contratante" class="btn btn-primary btn-lg">Cadastra-se</button>
                     </div>
                 </div>
+
                 <div class="cartao">
                     <div class="imagem">
-                        <img src="/assets/img/services/images (1).jpeg" alt="" class="img">
+                        <img src="/assets/img/other/images (1).jpeg" alt="" class="img">
                     </div>
                     <div class="coteudo-cartao">
                         <h4 class="titulo-cartao">Setor do recrutamento</h4>
@@ -221,11 +219,12 @@
                     </div>
                 </div>
             </section>
+            
             <div class="metados">
                 <div class="titulo-fundo">
                     <h5>Nosso método</h5>
                     <p> sistema contratação e treinamento e preparação para entrevista de empregos.</p>
-                    <img src="/assets/img/services/graficoanimado.gif" alt="" class="img">
+                    <img src="/assets/img/other/graficoanimado.gif" alt="" class="img">
                 </div>
                 <div class="plano-fundo">
                     <div class="metodo">
@@ -246,11 +245,10 @@
                 </div>
             </div>
 
-
             <section class="talento">
                 <div class="grup-talento">
                     <div class="img-talento">
-                        <img src="/assets/img/services/dev.jpg" alt="">
+                        <img src="/assets/img/other/dev.jpg" alt="">
                     </div>
                     <div class="talento-conteudo">
                         <h1>Contrate talentos juniores fora da curva!</h1>
@@ -266,7 +264,6 @@
             </section>
 
             <section class="mine-cartoes">
-
                 <div class="mine-cartao">
                     <div class="mine-coteudo">
                         <h6 class="mine-titulo1">Front-end</h6>
@@ -313,7 +310,7 @@
                     reservados.</span>
             </p>
 
-            <img class="float-start" id="navbarLogo" src="/assets/img/logo/logo-blue-6.png" alt="devHOME logo">
+            <img class="float-start" id="logo" src="/assets/img/logo/logo-blue-6.png" alt="devHOME logo">
             <p class="float-end"><i class="bi bi-arrow-up-short"></i> <a href="#">Voltar ao início</a></p>
         </footer>
     </div>
