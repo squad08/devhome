@@ -1,63 +1,68 @@
-# devHOME™
-<div align="center">
+<h1 align="center">
 <img align="center" src="assets/img/logo/logo-blue-6.png" alt="devHOME™ logo">
-<br>"Seja a mudança!"
-</div>
+</h1>
+
+<p align="center">
+"Sowing excellence, reaping extraordinary juniors!" <br/>
+</p>
+
+<p align="center">
+  <a href="#-about"> About </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies"> Tech </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy"> Deploy </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-english-version"> Portuguese Version </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
 <br>
 
-## Index
+## The Repository
 
-- [Residência em Software](#devHOME™)
-  - [Sobre](#upon)
-  - [Technologies](#-technologies)
-  - [Screenshots](#screenshots)
-  - [Update](#update)
+This repository is where we (Squad #08) develop the [DevHOME™](https://devhome-devhome.vercel.app/index.html) product together with the Recode Pro 2023. Not only do we work on code and issues here, we also publish our roadmap, monthly iteration plans, and our endgame plans. This source code is available to everyone under the standard [MIT license](https://github.com/squad08/devhome/blob/main/LICENSE).
 
 <br>
 
-## Upon
+## About
+<p align="center">
+  <img alt="devHOME™ in use on multiple platforms" src="assets/img/mockups/multiple-platfomr.png">
+</p>
+<p>Assim como a residência em medicina é um período de treinamento intensivo para médicos após a formatura da faculdade de medicina, a residência em software também envolve um treinamento especializado para desenvolvedores de software após a graduação ou obtenção de habilidades básicas em programação.</p>
 
-Seu Squad deve desenvolver uma solução que seja capaz de contribuir para o alcance do ODS 8 - Trabalho digno e desenvolvimento econômico. 
+<br>
 
-## 💻 Technologies
+* Objetivos:
+<p>Esse programa visa aprimorar as habilidades técnicas, conhecimentos e experiência dos participantes, preparando-os para se tornarem desenvolvedores de software altamente qualificados e eficazes.</p>
 
-Nesta atividade, vamos usar os conceitos de algoritmos em pseudocódigo (Resolução de problemas usando portugol), HTML <img width="20px" src="/img/icons/html.png">, CSS <img width="16px" src="/img/icons/css.png"> e BOOTSTRAP <img width="20px" src="/img/icons/bootstrap.png"> para a construção de um modelo de <strong>agência de viagens</strong>.
+Visamos també preencher a lacuna entre o aprendizado teórico adquirido durante a formação acadêmica ou cursos de programação e as habilidades práticas necessárias para trabalhar como se desenvolvedor em um ambiente profissional.
 
-- <em>Usando linguagem Pseudocódigo</em>:  <img width="15px" src="/img/icons/portugol.png"><br>
-Usando conceitos de programação estruturada, crie em pseudocódigo um 'menu' para simular um cadastro para uma agência de viagens com as seguintes funções:</div>
+<br>
+
+## Technologies
+This project was developed using
+- Html
+- Css
+- Bootstrap
+- JavaScript
   
-  - cadastro de cliente;
-  - cadastro de destino;
-  - consulta de cliente;
-  - consulta de destino;
+<br>
+
+## Deploy
+> Visit our page! [Click here](https://devhome-devhome.vercel.app/)
 
 <br>
 
-- <em>Usando linguagem WEB</em>: <img width="50px" src="/img/icons/html-js-css.png">
-
-  - &#x2611; Criar a página: Home;
-  - &#x2611; Criar a página: Destino;
-  - &#x2611; Criar a página: Promoções;
-  - &#x2611; Criar a página: Contato;
-  - &#x2611; As páginas devem ser responsivas ou adaptáveis;
-  - &#x2611; Faça as formatações de acordo com a paleta de cores escolhida;
+## Code of Conduct
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 <br>
 
-## Screenshots
+## License
+Copyright (c) Home Developer. All rights reserved.
+Licensed under the [MIT](https://github.com/squad08/devhome/blob/main/LICENSE) license.
 
-<img width="500px" src="#" alt="no screenshots at the moment">
+#### <p align="center"><img width="25rem" src="/assets/img/icon/icon-blue-2.png" alt="devHOME™ logo"> Developed by SQUAD 08 &nbsp;|&nbsp; Recode Pro 2023 🖖</p>
 
-<br>
-
-## Update
-
-&#x2611; Criar um protótipo da primeira versão do site;<br>
-
-
-<!-- 
-&#x2611; Visto
+<!--
 &#x2610; Desmarcado
-&#x2612; Marcado com x 
+&#x2611; Marcado com visto
+&#x2612; Marcado com x
 -->
