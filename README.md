@@ -25,14 +25,18 @@ This repository is where we (Squad #08) develop the [DevHOME™](https://devhome
 <p align="center">
   <img alt="devHOME™ in use on multiple platforms" src="assets/img/mockups/multiple-platfomr.png">
 </p>
+<p>Oferecemos um programa de formação profissional que combina teoria e prática, preparando os residentes para uma carreira de sucesso no desenvolvimento de software. Os residentes trabalham em projetos reais com clientes reais, sob a orientação de mentores experientes.
+
+Não cobramos nenhum conhecimento técnico prévio, ou taxa, pois o curso é 100% gratuito, sem contar que ao final você pode ser contratado por uma empresa parceira do programa. Lembre-se, tudo depende de você!</p>
+
 <p>Assim como a residência em medicina é um período de treinamento intensivo para médicos após a formatura da faculdade de medicina, a residência em software também envolve um treinamento especializado para desenvolvedores de software após a graduação ou obtenção de habilidades básicas em programação.</p>
 
 <br>
 
-* Objetivos:
-<p>Esse programa visa aprimorar as habilidades técnicas, conhecimentos e experiência dos participantes, preparando-os para se tornarem desenvolvedores de software altamente qualificados e eficazes.</p>
+* Objetivo:
+<p>Esse programa visa aprimorar as habilidades técnicas, conhecimentos e experiência dos participantes, preparando-os para se tornarem desenvolvedores de software altamente qualificados e eficazes.
 
-Visamos també preencher a lacuna entre o aprendizado teórico adquirido durante a formação acadêmica ou cursos de programação e as habilidades práticas necessárias para trabalhar como se desenvolvedor em um ambiente profissional.
+Visamos també preencher a lacuna entre o aprendizado teórico adquirido durante a formação acadêmica ou cursos de programação e as habilidades práticas necessárias para trabalhar como se desenvolvedor em um ambiente profissional.</p>
 
 <br>
 

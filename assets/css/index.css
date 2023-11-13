@@ -6,38 +6,19 @@
   position: relative;
 }
 
-.carousel-item {
-  height: 83vh;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 6%;
-  color: #fd0000;
-  text-align: center;
-  background: 0 0;
-  border: 0;
-  opacity: .5;
-  transition: opacity .15s ease;
-}
-
 .carousel-indicators {
   position: absolute;
   margin-right: 15%;
   margin-bottom: 0.5rem;
   margin-left: 15%;
-  opacity: .5;
 }
 
-rect {
-  fill: var(--translucid-special);
+.carousel-indicators .active {
+  background-color: var(--color-special);
+}
+
+.carousel-item {
+  height: 70vh;
 }
 
 #slide1 {
@@ -56,6 +37,28 @@ rect {
   background-image: url(/assets/img/other/slide03.jpeg);
   background-position: center;
   background-size: cover;
+}
+
+rect {
+  fill: var(--translucid-special);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6%;
+  color: #fd0000;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
 }
 
 /* Heros */
