@@ -15,10 +15,10 @@
     --color-other: #007cf0;
     --color-light: #D7F9FF;
     --color-dark: #212529;
-    --color-pink: #FF0066;
-    --color-special: #2BDEFD;
-    --translucid-special: hsla(189, 98%, 58%, .5);
-    --bs-secondary-color: hsla(189, 98%, 58%, .8);
+    --color-pink: #2BDEFD;
+    --color-special: hsl(336, 100%, 50%);
+    --translucid-special: hsla(336, 100%, 50%, .2);
+    --bs-secondary-color: hsla(336, 100%, 50%, .8);
 
     /* INTEGRAÇÃO DAS PALETAS */
     --text-other: var(--color-other);

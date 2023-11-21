@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html lang="pt-BR" data-bs-theme="dark">
+<html lang="pt-BR" data-bs-theme="dark" xmlns:th="www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8" />
@@ -11,44 +10,36 @@
     <meta name="description"
         content="Entre na residência em software da devHOME™ e aprenda Front-end, Back-end na prática com a maior plataforma de tecnologia do momento">
     <meta property="og:title" content="devHOME™ | Residência em Software">
-    <meta property="og:site_name" content="devHOME">
+    <meta property="og:site_name" content="devHOME™">
     <meta property="og:url" content="https://www.devHOME.com.br">
     <link rel="canonical" href="https://www.devHOME.com.br">
 
-    <!-- Framework Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- Biblioteca JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-    <!-- CSS Externo -->
     <link rel="stylesheet" href="/assets/css/modules.css">
     <link rel="stylesheet" href="/assets/css/menu.css">
+    <link rel="shortcut icon" href="/assets/img/icon/icon-pink-1.png" type="image/x-icon" />
 
-    <!-- Fivecon -->
-    <link rel="shortcut icon" href="/assets/img/icon/icon-blue-1.png" type="image/x-icon" />
-
-    <title> Module-back | devHOME™ </title>
+    <title> Módules Back-end | devHOME™ </title>
 </head>
 
 <body>
-    <!-- Navbar -->
     <header class="container-fluid navbar navbar-expand-lg bd-navbar fixed-top">
         <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
             <small class="d-lg-none">"Seja a mudança!"</small>
 
-            <!-- Logo navbar -->
             <a class="navbar-brand mx-auto" href="/index.html">
-                <img class=" d-block d-lg-flex" id="logo" src="/assets/img/logo/logo-blue-6.png" alt="devHOME logo">
+                <img class=" d-block d-lg-flex" id="logo" src="/assets/img/logo/logo-pink-6.png" alt="devHOME logo">
 
                 <title>devHOME™</title>
                 <small class="d-none ms-2">devHOME™</small>
             </a>
 
-            <!-- Botão mobile -->
             <div class="d-flex">
                 <button class="navbar-toggler border-0 d-lg-none order-3" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
@@ -63,11 +54,9 @@
                 </button>
             </div>
 
-            <!-- Menu mobile -->
             <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar"
                 aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true" aria-modal="true">
 
-                <!-- Cabeçalho do menu -->
                 <div class="offcanvas-header px-4 pb-0">
                     <h5 class="offcanvas-title text-white" id="bdNavbarOffcanvasLabel">
                         <span class="gradient-text">devHOME™</span>
@@ -78,39 +67,32 @@
                     </button>
                 </div>
 
-                <!-- Opções do menu -->
                 <div class="offcanvas-body p-4 pt-0 p-lg-0">
 
                     <hr class="d-lg-none text-white-50">
-                    <!-- Primeira parte da navbar -->
                     <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav ms-md-auto">
-
-                        <!-- Home -->
                         <li class="nav-item col-6 col-lg-auto">
                             <a class="nav-link" aria-current="true" href="/index.html">Home</a>
                         </li>
 
-                        <!-- About -->
                         <li class="nav-item col-6 col-lg-auto">
                             <a class="nav-link" href="/assets/html/about.html">Sobre</a>
                         </li>
 
-                        <!-- Serviços -->
                         <li class="nav-item col-6 col-lg-auto">
                             <a class="nav-link" href="/assets/html/services.html">Serviços</a>
                         </li>
 
-                        <!-- Contact -->
                         <li class="nav-item col-6 col-lg-auto">
                             <a class="nav-link" href="/assets/html/contact.html">Contato</a>
                         </li>
                     </ul>
 
                     <hr class="d-lg-none text-white-50">
-                    <!-- Segunda parte da navbar -->
+
                     <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
 
-                        <li class="nav-item col-6 col-lg-auto"><!-- Github -->
+                        <li class="nav-item col-6 col-lg-auto">
                             <a class="nav-link" href="https://github.com/Fiigueiredo" target="_blank" rel="noopener">
 
                                 <svg xmlns="" width="16" height="16" fill="currentColor" class="bi bi-github"
@@ -124,7 +106,7 @@
                             </a>
                         </li>
 
-                        <li class="nav-item col-6 col-lg-auto"><!-- Linkedin -->
+                        <li class="nav-item col-6 col-lg-auto">
                             <a class="nav-link" href="https://www.linkedin.com/in/levifiigueiredo/" target="_blank"
                                 rel="noopener">
 
@@ -145,7 +127,7 @@
                         </li>
 
                         <div class="nav-item col-12 col-lg-auto d-grid gap-2 d-md-flex">
-                            <!-- Botões de Login/Cadastro -->
+
                             <a class="btn btn-outline-primary" role="button" href="/assets/html/login.html">
                                 Login
                             </a>
@@ -160,7 +142,6 @@
         </nav>
     </header>
 
-    <!-- Corpo -->
     <main>
         <div class="contentor">
 
@@ -180,10 +161,10 @@
                 </nav>
                 <div class="content">
                     <h1 id="tituloModulo">Bem-vindo ao Mundo do Desenvolvimento Back-End!</h1>
-                    <p id="conteudoModulo">Estamos empolgados por você se juntar a nós nesta jornada pelo fascinante 
-                        universo do desenvolvimento back-end. Ao longo deste curso, exploraremos os fundamentos, 
+                    <p id="conteudoModulo">Estamos empolgados por você se juntar a nós nesta jornada pelo fascinante
+                        universo do desenvolvimento back-end. Ao longo deste curso, exploraremos os fundamentos,
                         tecnologias e práticas que impulsionam o lado "invisível" da web, tornando possíveis as
-                         funcionalidades e interações complexas que os usuários adoram.</p>
+                        funcionalidades e interações complexas que os usuários adoram.</p>
                     <div class="imagem"><img src="/assets/img/other/back-end.jpg" alt=""></div>
                 </div>
             </div>
@@ -193,8 +174,6 @@
 
     </main>
 
-
-    <!-- Rodapé -->
     <div class="container">
         <footer class="py-3 my-4">
             <ul class="nav nav-footer justify-content-center border-bottom pb-3 mb-3">
@@ -214,7 +193,7 @@
                     reservados.</span>
             </p>
 
-            <img class="float-start" id="logo" src="/assets/img/logo/logo-blue-6.png" alt="devHOME logo">
+            <img class="float-start" id="logo" src="/assets/img/logo/logo-pink-6.png" alt="devHOME logo">
             <p class="float-end"><i class="bi bi-arrow-up-short"></i> <a href="#">Voltar ao início</a></p>
         </footer>
     </div>
@@ -225,6 +204,7 @@
         </path>
     </svg>
 </body>
+
 <script src="/assets/script/menu.js"></script>
 <script src="/assets/script/module.js"></script>
 <script src="/assets/script/moduleFullStack.js"></script>
